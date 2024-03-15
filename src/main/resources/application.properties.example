@@ -1,0 +1,8 @@
+discord.token=YOUR-DISCORD-TOKEN
+testGuildId=EXAMPLE_GUILDID
+spring.mail.host=smtp.example.com
+spring.mail.port=587
+spring.mail.username=email@example.com
+spring.mail.password=your_password
+spring.mail.properties.mail.smtp.auth=true
+spring.mail.properties.mail.smtp.starttls.enable=true
