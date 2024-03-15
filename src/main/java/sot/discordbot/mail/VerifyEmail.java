@@ -1,4 +1,4 @@
-package ugdiscord.app.mail;
+package sot.discordbot.mail;
 
 import java.util.regex.Pattern;
 

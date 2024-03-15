@@ -1,8 +1,7 @@
-package ugdiscord.app;
+package sot.discordbot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 public class AppApplication {

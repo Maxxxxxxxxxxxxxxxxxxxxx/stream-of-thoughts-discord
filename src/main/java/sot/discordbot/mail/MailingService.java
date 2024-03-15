@@ -1,9 +1,9 @@
-package ugdiscord.app.mail;
+package sot.discordbot.mail;
 
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.stereotype.Service;
-import ugdiscord.app.discord.Log;
+import sot.discordbot.discord.Log;
 
 @Service
 public class MailingService {

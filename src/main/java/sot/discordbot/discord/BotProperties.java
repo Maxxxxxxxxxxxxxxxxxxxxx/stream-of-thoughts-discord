@@ -1,4 +1,4 @@
-package ugdiscord.app.discord;
+package sot.discordbot.discord;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

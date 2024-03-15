@@ -1,11 +1,11 @@
-package ugdiscord.app.discord.command;
+package sot.discordbot.discord.command;
 
 import discord4j.core.event.domain.interaction.ChatInputInteractionEvent;
 import discord4j.rest.service.ApplicationService;
-import ugdiscord.app.discord.Bot;
-import ugdiscord.app.discord.Log;
-import ugdiscord.app.discord.command.impl.LoginSlashCommand;
-import ugdiscord.app.discord.command.impl.VerifySlashCommand;
+import sot.discordbot.discord.Bot;
+import sot.discordbot.discord.Log;
+import sot.discordbot.discord.command.impl.LoginSlashCommand;
+import sot.discordbot.discord.command.impl.VerifySlashCommand;
 
 import java.util.HashMap;
 

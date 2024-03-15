@@ -1,4 +1,4 @@
-package ugdiscord.app.discord.command.impl;
+package sot.discordbot.discord.command.impl;
 
 import discord4j.common.util.Snowflake;
 import discord4j.core.event.domain.interaction.ChatInputInteractionEvent;
@@ -9,9 +9,9 @@ import discord4j.discordjson.json.ApplicationCommandOptionData;
 import discord4j.discordjson.json.ApplicationCommandRequest;
 import discord4j.discordjson.json.RoleData;
 import reactor.core.publisher.Mono;
-import ugdiscord.app.discord.Bot;
-import ugdiscord.app.discord.Log;
-import ugdiscord.app.discord.command.ISlashCommand;
+import sot.discordbot.discord.Bot;
+import sot.discordbot.discord.Log;
+import sot.discordbot.discord.command.ISlashCommand;
 
 public class VerifySlashCommand implements ISlashCommand {
 

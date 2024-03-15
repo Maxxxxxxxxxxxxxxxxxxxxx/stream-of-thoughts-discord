@@ -1,4 +1,4 @@
-package ugdiscord.app.verification;
+package sot.discordbot.verification;
 
 import org.springframework.stereotype.Service;
 

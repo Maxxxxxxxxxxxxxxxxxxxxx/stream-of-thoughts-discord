@@ -1,4 +1,4 @@
-package ugdiscord.app.discord;
+package sot.discordbot.discord;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

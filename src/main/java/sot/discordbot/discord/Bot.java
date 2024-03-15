@@ -1,6 +1,5 @@
-package ugdiscord.app.discord;
+package sot.discordbot.discord;
 
-import discord4j.common.util.Snowflake;
 import discord4j.core.DiscordClient;
 import discord4j.core.GatewayDiscordClient;
 import discord4j.core.event.domain.lifecycle.ReadyEvent;
@@ -10,9 +9,9 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 import reactor.core.publisher.Mono;
-import ugdiscord.app.discord.command.SlashCommandHandler;
-import ugdiscord.app.mail.MailingService;
-import ugdiscord.app.verification.TokenService;
+import sot.discordbot.mail.MailingService;
+import sot.discordbot.verification.TokenService;
+import sot.discordbot.discord.command.SlashCommandHandler;
 
 @Component
 public class Bot {

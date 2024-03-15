@@ -1,4 +1,4 @@
-package ugdiscord.app.verification;
+package sot.discordbot.verification;
 
 public record Token(int expires, String content) {
 }

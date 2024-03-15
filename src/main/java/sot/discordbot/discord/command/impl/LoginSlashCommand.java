@@ -1,13 +1,13 @@
-package ugdiscord.app.discord.command.impl;
+package sot.discordbot.discord.command.impl;
 
 import discord4j.core.event.domain.interaction.ChatInputInteractionEvent;
 import discord4j.core.object.command.ApplicationCommandOption;
 import discord4j.discordjson.json.ApplicationCommandOptionData;
 import discord4j.discordjson.json.ApplicationCommandRequest;
 import reactor.core.publisher.Mono;
-import ugdiscord.app.discord.Bot;
-import ugdiscord.app.discord.command.ISlashCommand;
-import ugdiscord.app.mail.VerifyEmail;
+import sot.discordbot.discord.Bot;
+import sot.discordbot.discord.command.ISlashCommand;
+import sot.discordbot.mail.VerifyEmail;
 
 public class LoginSlashCommand implements ISlashCommand {
 
